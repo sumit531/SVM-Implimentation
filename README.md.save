@@ -1,0 +1,61 @@
+Certainly! Here's a step-by-step summary of the code  for 
+both the linear and nonlinear datasets, where we aim to achieve an 
+accuracy of 0.95 for both cases:
+
+**Linear Dataset:**
+
+1. Generate a synthetic linear dataset with two features using 
+scikit-learn's `datasets.make_classification` function.
+
+2. Split the dataset into training and testing sets, with 80% of the data 
+used for training and 20% for testing.
+
+3. Create a Support Vector Machine (SVM) classifier with a linear kernel 
+using scikit-learn's `SVC` class.
+
+4. Fit the SVM classifier to the training data.
+
+5. Make predictions on the test data using the trained SVM classifier.
+
+6. Calculate the accuracy of the linear SVM model by comparing the 
+predicted labels to the true labels from the test data.
+
+7. Visualize the decision boundary of the linear SVM model using a contour 
+plot.
+
+**Nonlinear Dataset (Circles):**
+
+1. Generate a synthetic nonlinear dataset with two features using 
+scikit-learn's `datasets.make_circles` function. This dataset contains two 
+classes that cannot be separated by a straight line.
+
+2. Split the nonlinear dataset into training and testing sets, with 80% 
+for training and 20% for testing.
+
+3. Create a Support Vector Machine (SVM) classifier with a radial basis 
+function (RBF) kernel, which is suitable for handling nonlinear data.
+
+4. Fit the SVM classifier to the training data.
+
+5. Make predictions on the test data using the trained nonlinear SVM 
+classifier.
+
+6. Calculate the accuracy of the nonlinear SVM model by comparing the 
+predicted labels to the true labels from the test data.
+
+7. Visualize the decision boundary of the nonlinear SVM model using a 
+contour plot.
+
+The goal is to achieve an accuracy of 0.95 for both the linear and 
+nonlinear datasets. The accuracy of each model is displayed in the titles 
+of the corresponding plots, and the decision boundaries are plotted to 
+visually understand how the SVM models classify the data.
+
+Remember that the accuracy can vary based on the dataset and its 
+characteristics, so it might not always be possible to achieve exactly 
+0.95 accuracy. The code is designed to showcase how to train and evaluate 
+SVM models on different datasets and visualize their decision boundaries.
+Certainly! Here's a step-by-step summary of the code provided earlier for 
+both the linear and nonlinear datasets, where we aim to achieve an 
+accuracy of 0.95 for both cases:
+
